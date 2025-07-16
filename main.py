@@ -5,7 +5,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 st.title("Gemini Bot -AI-Powered Study Material Organizer and Summarizer using LLM API")
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyCyv9AxGMxSrxYVCHRLODCZM1Onjo6uwvY"
+os.environ['GOOGLE_API_KEY'] = "<<<<<< Have your key here >>>>>>"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 # Select the model
