@@ -11,7 +11,7 @@ from io import BytesIO
 load_dotenv()
 
 # Configure API keys
-os.environ['GOOGLE_API_KEY'] = "AIzaSyCyv9AxGMxSrxYVCHRLODCZM1Onjo6uwvY"
+os.environ['GOOGLE_API_KEY'] = "<<<<<< Have your key here >>>>>>"
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 # Validate that GOOGLE_API_KEY is loaded
